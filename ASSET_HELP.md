@@ -14,10 +14,8 @@ The live Wix site's Instagram feed is loaded through a widget, so the individual
 
 To replace the gallery with exact Instagram images later:
 
-1. Add your images to `assets/instagram/`.
-2. Use simple names such as `photo-01.jpg`, `photo-02.jpg`, `photo-03.jpg`.
-3. Open `script.js`.
-4. Replace the `image` values in `galleryItems` with paths like `assets/instagram/photo-01.jpg`.
-5. Keep the `caption` values, or replace them with the original Instagram captions.
+1. Add four square images to `assets/`.
+2. Name them `instagram-1.jpg`, `instagram-2.jpg`, `instagram-3.jpg`, and `instagram-4.jpg`.
+3. Refresh the page. No code changes are needed.
 
 For best results, crop replacement gallery images square before adding them. JPG or PNG files both work.
