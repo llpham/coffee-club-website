@@ -11,11 +11,11 @@ Neither page has structured data. Adding a `SportsActivityLocation` or
 `address`/`areaServed` for Manhattan Beach, and `sameAs` linking to the Instagram
 and Strava profiles) would make the club eligible for local/rich search results.
 Likely placement: a `<script type="application/ld+json">` block in the `<head>` of
-`index.html`, and possibly a matching one on `partner-with-us.html`.
+`index.html`, and possibly a matching one on `partner-with-us/index.html`.
 
 ## 2. Missing `width`/`height` on `<img>` tags
 
-No `<img>` element in `index.html` or `partner-with-us.html` declares intrinsic
+No `<img>` element in `index.html` or `partner-with-us/index.html` declares intrinsic
 `width`/`height` (or `aspect-ratio` via CSS). This causes layout shift on load
 (Core Web Vitals CLS), which is an SEO ranking factor as well as a UX issue.
 Fix: add explicit `width`/`height` attributes matching each image's natural
